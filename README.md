@@ -1,0 +1,4 @@
+dinline
+=======
+
+browserify angularjs directives
