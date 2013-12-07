@@ -52,6 +52,8 @@ function browserifyFile(file) {
       ++ pending;
       fs.readFile(fullTemplatePath, 'utf8', function (err, src) {
         if (err) return tr.emit('error', err);
+        // TODO: consider using html-minifier
+        // https://npmjs.org/package/html-minifier
         node.parent.update('template: ' + JSON.stringify(src));
         if (--pending === 0) finish(output);
       });
