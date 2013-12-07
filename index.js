@@ -52,6 +52,7 @@ function browserifyFile(file) {
       var fullTemplatePath = path.resolve(dirname, templateName);
 
       ++ pending;
+      // todo: what if file is not encoded in unicode?
       fs.readFile(fullTemplatePath, 'utf8', function (err, src) {
         if (err) return tr.emit('error', err);
         // TODO: consider using html-minifier
