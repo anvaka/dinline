@@ -3,6 +3,8 @@ Directive Inline
 
 This module is a plugin for [browserify](http://browserify.org/). It looks for angularjs directives in AST, and inlines static template files into directive declaration.
 
+[![build status](https://secure.travis-ci.org/anvaka/dinline.png)](http://travis-ci.org/anvaka/dinline)
+
 # Example - helloWorld directive
 
 Our custom directive template `helloWorld.html`:
