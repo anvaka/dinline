@@ -1,3 +1,5 @@
+// TODO: I need better error handling and logging
+
 module.exports = browserifyFile;
 
 var through = require('through');
