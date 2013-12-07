@@ -1,0 +1,33 @@
+{
+  "name": "dinline",
+  "version": "0.0.0",
+  "description": "browserify angularjs directives",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anvaka/dinline.git"
+  },
+  "keywords": [
+    "browserify",
+    "angular",
+    "static",
+    "asset",
+    "bundle"
+  ],
+  "author": "Andrei Kashcha",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/anvaka/dinline/issues"
+  },
+  "devDependencies": {
+    "tap": "~0.4.6",
+    "browserify": "~2.36.1"
+  },
+  "dependencies": {
+    "through": "~2.3.4",
+    "falafel": "~0.3.1"
+  }
+}
